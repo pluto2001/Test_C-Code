@@ -7,7 +7,6 @@ int main(){
 	scanf("%f",&profit);
 	
 	sum = ((profit*100)/cost)-100;
-	printf("Sale Price = %.0f",sum);
+	printf("%.1f",sum);
 	
 }
-
